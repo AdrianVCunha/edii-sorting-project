@@ -32,12 +32,13 @@ Essa abordagem permite uma comparação justa e padronizada do desempenho tempor
 O projeto foi estruturado de forma modular, separando claramente interface e implementação, bem como os diferentes domínios do sistema:
 
 include/
- ├── algorithms/   # Cabeçalhos dos algoritmos de ordenação
- ├── utils/        # Funções utilitárias (ex.: swap, geração de vetores)
- └── metrics/      # Estrutura e funções relacionadas às métricas
+
+     algorithms/   # Cabeçalhos dos algoritmos de ordenação
+     metrics/      # Estrutura e funções relacionadas às métricas
 
 src/
- ├── algorithms/   # Implementações dos algoritmos de ordenação
- ├── utils/        # Implementações das funções utilitárias
- ├── metrics/      # Implementação do módulo de métricas
- └── main.c        # Programa principal (execução e coleta de dados)
+
+    algorithms/   # Implementações dos algoritmos de ordenação
+    utils/        # Implementações das funções utilitárias
+    metrics/      # Implementação do módulo de métricas
+    main.c        # Programa principal (execução e coleta de dados)
