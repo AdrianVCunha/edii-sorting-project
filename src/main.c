@@ -4,18 +4,19 @@
 
 #include "metrics/metric.h"
 #include "algorithms/bubble.h"
+#include "algorithms/bubblestop.h"
 
 int main(){
 	
-	int arr[10];
+	int arr[10000];
 
-	for(int i = 0; i < 10; i++){
+	for(int i = 0; i < 10000; i++){
 		arr[i] = rand() % 100;
 	}
 
 	printf("Array before sorting:\n");
 
-	for(int i = 0; i < 10; i++){
+	for(int i = 0; i < 10000; i++){
 		printf("%d ", arr[i]);
 	}
 	printf("\n\n");
@@ -24,15 +25,16 @@ int main(){
 
 	clock_t start = clock(); 
 
-	bubbleSort(arr, 10, &m);
+	bubbleSort(arr, 10000, &m);
 
 	clock_t end = clock();
 	m.executionTime = ((double)(end - start)) / CLOCKS_PER_SEC;
 
 	printf("Array after sorting:\n");
-	for(int i = 0; i < 10; i++){
+	for(int i = 0; i < 10000; i++){
 		printf("%d ", arr[i]);
 	}
+	
 	printf("\n\nMetric after sorting:\n");
 	printMetric(m);
 

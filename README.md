@@ -4,6 +4,7 @@ Este repositório contém a implementação de diversos **algoritmos de ordenaç
 
 ### Algoritmos implementados
     * Bubble sort
+    * Optimized Bubble Sort (with early stopping)
 
 ### Métricas de Desempenho ###
 
@@ -35,10 +36,11 @@ include/
 
      algorithms/   # Cabeçalhos dos algoritmos de ordenação
      metrics/      # Estrutura e funções relacionadas às métricas
+     utils/         # Estrutura das funções utilitárias
 
 src/
 
-    algorithms/   # Implementações dos algoritmos de ordenação
-    utils/        # Implementações das funções utilitárias
-    metrics/      # Implementação do módulo de métricas
-    main.c        # Programa principal (execução e coleta de dados)
+     algorithms/   # Implementações dos algoritmos de ordenação
+     utils/        # Implementações das funções utilitárias
+     metrics/      # Implementação do módulo de métricas
+     main.c        # Programa principal (execução e coleta de dados)
