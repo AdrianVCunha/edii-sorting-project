@@ -1,7 +1,7 @@
 #include "metrics/metric.h"
 #include "utils/swap.h"
 
-void ternarySort(int arr[], int n, *metric m) {
+void ternarySort(int arr[], int n, Metric* m) {
     int auxiliar, esq, dir, m1, m2;
 
     for (int i = 1; i < n; i++) {
@@ -14,7 +14,7 @@ void ternarySort(int arr[], int n, *metric m) {
             m1 = esq + (dir - esq) / 3;
             m2 = dir - (dir - esq) / 3;
 
-            (m->comparisions)++;
+            (m->comparisons)++;
 
             if (auxiliar < arr[m1]) {
                 dir = m1;

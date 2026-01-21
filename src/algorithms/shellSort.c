@@ -1,7 +1,7 @@
 #include "metrics/metric.h"
 #include "utils/swap.h"
 
-void shellSort(int arr[], int n, *metric m) {
+void shellSort(int arr[], int n, Metric* m) {
     int h = 1;
     int auxiliar, j;
 
@@ -19,7 +19,7 @@ void shellSort(int arr[], int n, *metric m) {
             j = i - h;
 
             while (j >= 0) {
-                (m->comparisions)++;
+                (m->comparisons)++;
 
                 if (auxiliar < arr[j]) {
                     arr[j + h] = arr[j];

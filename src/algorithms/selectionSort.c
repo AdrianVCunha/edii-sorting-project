@@ -1,7 +1,7 @@
 #include "metrics/metric.h"
 #include "utils/swap.h"
 
-void selectionSort(int arr[], int n, *metric m) {
+void selectionSort(int arr[], int n, Metric* m) {
     int i, j, min, temp;
 
     for (i = 0; i < n - 1; i++) {
@@ -9,7 +9,7 @@ void selectionSort(int arr[], int n, *metric m) {
 
         // Procura o menor elemento
         for (j = i + 1; j < n; j++) {
-            (m->comparisions)++;
+            (m->comparisons)++;
 
             if (arr[j] < arr[min]) {
                 min = j;

@@ -1,18 +1,18 @@
 #include "metrics/metric.h"
 #include "utils/swap.h"
 
-void insertionSort(int arr[], int n, *metric m) {
+void insertionSort(int arr[], int n, Metric* m) {
     int auxiliar, j;
 
     for (int i = 1; i < n; i++) {
-        auxiliar = V[i];
+        auxiliar = arr[i];
         j = i - 1;
 
         while (j >= 0) {
-            (m->comparisions)++;
+            (m->comparisons)++;
 
-            if (auxiliar < V[j]) {
-                V[j + 1] = V[j];
+            if (auxiliar < arr[j]) {
+                arr[j + 1] = arr[j];
                 (m->swaps)++;
                 j--;
             } else {
@@ -20,7 +20,7 @@ void insertionSort(int arr[], int n, *metric m) {
             }
         }
 
-        V[j + 1] = auxiliar;
+        arr[j + 1] = auxiliar;
         (m->swaps)++;
     }
 }

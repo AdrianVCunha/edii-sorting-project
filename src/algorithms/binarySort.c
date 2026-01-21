@@ -1,20 +1,20 @@
 #include "metrics/metric.h"
 #include "utils/swap.h"
 
-void binarySort(int arr[], int n, *metric m) {
+void binarySort(int arr[], int n, Metric* m) {
     int auxiliar, esq, dir, meio;
 
     for (int i = 1; i < n; i++) {
-        auxiliar = V[i];
+        auxiliar = arr[i];
         esq = 0;
         dir = i;
 
         // Busca binária
         while (esq < dir) {
             meio = (esq + dir) / 2;
-            (m->comparisions)++;
+            (m->comparisons)++;
 
-            if (V[meio] <= auxiliar)
+            if (arr[meio] <= auxiliar)
                 esq = meio + 1;
             else
                 dir = meio;
@@ -22,11 +22,11 @@ void binarySort(int arr[], int n, *metric m) {
 
         // Deslocamentos
         for (int j = i; j > esq; j--) {
-            V[j] = V[j - 1];
+            arr[j] = arr[j - 1];
             (m->swaps)++;
         }
 
-        V[esq] = auxiliar;
+        arr[esq] = auxiliar;
         (m->swaps)++;
     }
 }
