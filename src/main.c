@@ -5,38 +5,42 @@
 #include "metrics/metric.h"
 #include "algorithms/bubble.h"
 #include "algorithms/bubblestop.h"
+#include "algorithms/insertionSort.h"
+#include "algorithms/binarySort.h"
+#include "algorithms/ternarySort.h"
+#include "algorithms/shellSort.h"
+#include "algorithms/selectionSort.h"
+#include "algorithms/heapSort.h"
+#include "algorithms/mergeSort.h"
+#include "algorithms/radixSort.h"
+#include "utils/fileUtils.h"
+#include "utils/arrayGenerator.h"
+
+#define SIZE 500000
 
 int main(){
-	
-	int arr[10000];
+	srand(time(NULL));
 
-	for(int i = 0; i < 10000; i++){
-		arr[i] = rand() % 100;
-	}
+	int *arr = malloc(SIZE * sizeof(int));
 
-	printf("Array before sorting:\n");
-
-	for(int i = 0; i < 10000; i++){
-		printf("%d ", arr[i]);
-	}
-	printf("\n\n");
+	char fileName[100];
+	genImputRandom(SIZE, fileName);
+	readArrayFromFile(arr, fileName, SIZE);
 
 	Metric m = createMetric();
 
+	//Random
 	clock_t start = clock(); 
-
-	bubbleSort(arr, 10000, &m);
-
+	shellSort(arr, SIZE, &m);
 	clock_t end = clock();
 	m.executionTime = ((double)(end - start)) / CLOCKS_PER_SEC;
 
-	printf("Array after sorting:\n");
-	for(int i = 0; i < 10000; i++){
-		printf("%d ", arr[i]);
-	}
-	
-	printf("\n\nMetric after sorting:\n");
-	printMetric(m);
+	printNumbersToFile(arr, SIZE, "data/output/random/randomSorted.txt");
+	printMetricToFile(SIZE, "shellSort", &m);
+
+	free(arr);
+
+	printf("\n\nFinished\n\n");
 
 	return 0;
 }
