@@ -1,0 +1,36 @@
+Algorithm: BucketSort | Size: 10000 | type: Random Numbers
+Comparisons: 24583 | Swaps: 26257 | Execution time: 0.0015259000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 19998 | Swaps: 20000 | Execution time: 0.0014030000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 19998 | Swaps: 20000 | Execution time: 0.0017208000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 100000 | type: Random Numbers
+Comparisons: 258139 | Swaps: 276732 | Execution time: 0.0270236000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 199998 | Swaps: 200000 | Execution time: 0.0153334000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 199998 | Swaps: 200000 | Execution time: 0.0111094000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 500000 | type: Random Numbers
+Comparisons: 1310035 | Swaps: 1406524 | Execution time: 0.1076950000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 999998 | Swaps: 1000000 | Execution time: 0.0535417000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 999998 | Swaps: 1000000 | Execution time: 0.0584712000000000
+------------------------------------
+

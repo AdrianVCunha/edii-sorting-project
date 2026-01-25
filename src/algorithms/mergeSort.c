@@ -1,5 +1,8 @@
 #include "metrics/metric.h"
-#include <stdlib.h>
+#include "utils/fileUtils.h"
+#include <stdio.h>
+#include <time.h>
+#include <windows.h>
 
 void merge(int arr[], int left, int mid, int right, Metric *m){
     int i = left;
@@ -45,4 +48,20 @@ void mergeSort(int arr[], int left, int right, Metric *m){
         mergeSort(arr, mid+1, right, m);
         merge(arr, left, mid, right, m);
     }
+}
+
+void runMergeSort(int *array, int size, const char *datasetType, const char *outputPath, Metric *m) {
+    LARGE_INTEGER freq, start, end;
+    QueryPerformanceFrequency(&freq);
+    QueryPerformanceCounter(&start);
+
+    mergeSort(array, 0, size-1, m);
+
+    QueryPerformanceCounter(&end);
+    m->executionTime = (double)(end.QuadPart - start.QuadPart) / freq.QuadPart;
+
+    printNumbersToFile(array, size, outputPath);
+    printMetricToFile(size, "MergeSort", datasetType, m);
+    resetMetric(m);
+    printf("\nFinished Merge sort on %s (%d elements)", datasetType, size);
 }

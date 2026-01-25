@@ -1,4 +1,8 @@
 #include "metrics/metric.h"
+#include "utils/fileUtils.h"
+#include <stdio.h>
+#include <time.h>
+#include <windows.h>
 
 void shellSort(int arr[], int n, Metric *m) {
     int h = 1;
@@ -33,4 +37,21 @@ void shellSort(int arr[], int n, Metric *m) {
         }
     }
 
+}
+
+void runShellSort(int *array, int size, const char *datasetType, const char *outputPath, Metric *m) {
+
+    LARGE_INTEGER freq, start, end;
+    QueryPerformanceFrequency(&freq);
+    QueryPerformanceCounter(&start);
+
+    shellSort(array, size, m);
+
+    QueryPerformanceCounter(&end);
+    m->executionTime = (double)(end.QuadPart - start.QuadPart) / freq.QuadPart;
+
+    printNumbersToFile(array, size, outputPath);
+    printMetricToFile(size, "ShellSort", datasetType, m);
+    resetMetric(m);
+    printf("\nFinished Shell sort on %s (%d elements)", datasetType, size);
 }

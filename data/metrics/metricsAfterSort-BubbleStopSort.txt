@@ -1,0 +1,36 @@
+Algorithm: BubbleStopSort | Size: 10000 | type: Random Numbers
+Comparisons: 49994847 | Swaps: 24961817 | Execution time: 0.1984798000000000
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 9999 | Swaps: 0 | Execution time: 0.0000284000000000
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 49995000 | Swaps: 49995000 | Execution time: 0.2473026000000000
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 100000 | type: Random Numbers
+Comparisons: 4999909530 | Swaps: 2507802163 | Execution time: 32.1093137000000010
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 99999 | Swaps: 0 | Execution time: 0.0008781000000000
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 4999950000 | Swaps: 4999950000 | Execution time: 24.4854285000000010
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 500000 | type: Random Numbers
+Comparisons: 124999233364 | Swaps: 62513145717 | Execution time: 829.3224956000000200
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 499999 | Swaps: 0 | Execution time: 0.0031690000000000
+------------------------------------
+
+Algorithm: BubbleStopSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 124999750000 | Swaps: 124999750000 | Execution time: 622.4402993999999600
+------------------------------------
+

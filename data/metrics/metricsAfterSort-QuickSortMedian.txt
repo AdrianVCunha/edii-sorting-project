@@ -1,0 +1,36 @@
+Algorithm: QuickSortMedian | Size: 10000 | type: Random Numbers
+Comparisons: 184912 | Swaps: 34696 | Execution time: 0.0015141000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 10000 | type: Ordered Numbers
+Comparisons: 137247 | Swaps: 5904 | Execution time: 0.0006105000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 10000 | type: Reversed Numbers
+Comparisons: 137263 | Swaps: 10904 | Execution time: 0.0006083000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 100000 | type: Random Numbers
+Comparisons: 2311004 | Swaps: 424308 | Execution time: 0.0183982000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 100000 | type: Ordered Numbers
+Comparisons: 1731086 | Swaps: 65535 | Execution time: 0.0045813000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 100000 | type: Reversed Numbers
+Comparisons: 1731101 | Swaps: 115534 | Execution time: 0.0051391000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 500000 | type: Random Numbers
+Comparisons: 12883836 | Swaps: 2395526 | Execution time: 0.0890314000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 500000 | type: Ordered Numbers
+Comparisons: 9524304 | Swaps: 262143 | Execution time: 0.0257052000000000
+------------------------------------
+
+Algorithm: QuickSortMedian | Size: 500000 | type: Reversed Numbers
+Comparisons: 9524321 | Swaps: 512142 | Execution time: 0.0273040000000000
+------------------------------------
+

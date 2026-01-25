@@ -1,0 +1,36 @@
+Algorithm: ShellSort | Size: 10000 | type: Random Numbers
+Comparisons: 235837 | Swaps: 240240 | Execution time: 0.0015958000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 75243 | Swaps: 75243 | Execution time: 0.0003620000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 120190 | Swaps: 128947 | Execution time: 0.0009233000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 100000 | type: Random Numbers
+Comparisons: 3971968 | Swaps: 4013246 | Execution time: 0.0296507000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 967146 | Swaps: 967146 | Execution time: 0.0043714000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 1533494 | Swaps: 1586800 | Execution time: 0.0082859000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 500000 | type: Random Numbers
+Comparisons: 26245188 | Swaps: 26482417 | Execution time: 0.1654812000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 5601426 | Swaps: 5601426 | Execution time: 0.0277688000000000
+------------------------------------
+
+Algorithm: ShellSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 8622570 | Swaps: 9053230 | Execution time: 0.0417763000000000
+------------------------------------
+

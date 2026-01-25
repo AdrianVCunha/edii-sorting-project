@@ -1,4 +1,0 @@
-Algorithm: shellSort | Size: 500000
-Comparisons: 27984558 | Swaps: 28221107
-------------------------------------
-

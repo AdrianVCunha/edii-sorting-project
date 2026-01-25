@@ -1,0 +1,36 @@
+Algorithm: RadixSort | Size: 10000 | type: Random Numbers
+Comparisons: 0 | Swaps: 180000 | Execution time: 0.0011005000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 0 | Swaps: 80000 | Execution time: 0.0005469000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 0 | Swaps: 80000 | Execution time: 0.0009047000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 100000 | type: Random Numbers
+Comparisons: 0 | Swaps: 1800000 | Execution time: 0.0187717000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 0 | Swaps: 1000000 | Execution time: 0.0063021000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 0 | Swaps: 1000000 | Execution time: 0.0064536000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 500000 | type: Random Numbers
+Comparisons: 0 | Swaps: 9000000 | Execution time: 0.0609633000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 0 | Swaps: 6000000 | Execution time: 0.0389096000000000
+------------------------------------
+
+Algorithm: RadixSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 0 | Swaps: 6000000 | Execution time: 0.0408890000000000
+------------------------------------
+

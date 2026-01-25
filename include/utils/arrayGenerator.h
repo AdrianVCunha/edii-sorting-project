@@ -1,8 +1,10 @@
 #ifndef ARRAYGENERATOR_H
 #define ARRAYGENERATOR_H
 
-void genImputRandom(int n, char* fileName);
-void genImputOrdered(int n, char* fileName);
-void genImputReversed(int n, char* fileName);
+void genImputRandom(int n);
+void genImputOrdered(int n);
+void genImputReversed(int n);
+char* getImputDir(int n);
+void genAllImputs();
 
 #endif

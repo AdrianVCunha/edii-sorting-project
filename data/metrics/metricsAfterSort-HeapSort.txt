@@ -1,0 +1,36 @@
+Algorithm: HeapSort | Size: 10000 | type: Random Numbers
+Comparisons: 353183 | Swaps: 124262 | Execution time: 0.0014834000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 366748 | Swaps: 131956 | Execution time: 0.0013049000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 340042 | Swaps: 116696 | Execution time: 0.0018168000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 100000 | type: Random Numbers
+Comparisons: 4529581 | Swaps: 1575013 | Execution time: 0.0275620000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 4668958 | Swaps: 1650854 | Execution time: 0.0149970000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 4390017 | Swaps: 1497434 | Execution time: 0.0150773000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 500000 | type: Random Numbers
+Comparisons: 26095547 | Swaps: 9024071 | Execution time: 0.1232198000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 26760574 | Swaps: 9355700 | Execution time: 0.0803893000000000
+------------------------------------
+
+Algorithm: HeapSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 25467279 | Swaps: 8668450 | Execution time: 0.0871156000000000
+------------------------------------
+

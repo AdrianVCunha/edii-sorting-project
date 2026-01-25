@@ -1,0 +1,36 @@
+Algorithm: MergeSort | Size: 10000 | type: Random Numbers
+Comparisons: 120375 | Swaps: 267232 | Execution time: 0.0033739000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 69008 | Swaps: 267232 | Execution time: 0.0025075000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 64608 | Swaps: 267232 | Execution time: 0.0030623000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 100000 | type: Random Numbers
+Comparisons: 1536227 | Swaps: 3337856 | Execution time: 0.0321030000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 853904 | Swaps: 3337856 | Execution time: 0.0208967000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 815024 | Swaps: 3337856 | Execution time: 0.0196294000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 500000 | type: Random Numbers
+Comparisons: 8836997 | Swaps: 18951424 | Execution time: 0.1550076000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 4783216 | Swaps: 18951424 | Execution time: 0.1044885000000000
+------------------------------------
+
+Algorithm: MergeSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 4692496 | Swaps: 18951424 | Execution time: 0.1036404000000000
+------------------------------------
+

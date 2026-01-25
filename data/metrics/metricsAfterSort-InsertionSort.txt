@@ -1,0 +1,36 @@
+Algorithm: InsertionSort | Size: 10000 | type: Random Numbers
+Comparisons: 24968126 | Swaps: 24968124 | Execution time: 0.0844987000000000
+------------------------------------
+
+Algorithm: InsertionSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 9999 | Swaps: 0 | Execution time: 0.0000364000000000
+------------------------------------
+
+Algorithm: InsertionSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 49995000 | Swaps: 50004999 | Execution time: 0.1879847000000000
+------------------------------------
+
+Algorithm: InsertionSort | Size: 100000 | type: Random Numbers
+Comparisons: 2508629027 | Swaps: 2508629027 | Execution time: 8.4414344000000003
+------------------------------------
+
+Algorithm: InsertionSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 99999 | Swaps: 0 | Execution time: 0.0004611000000000
+------------------------------------
+
+Algorithm: InsertionSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 4999950000 | Swaps: 5000049999 | Execution time: 16.7686953000000010
+------------------------------------
+
+Algorithm: InsertionSort | Size: 500000 | type: Random Numbers
+Comparisons: 62502630082 | Swaps: 62502630080 | Execution time: 209.5372002000000000
+------------------------------------
+
+Algorithm: InsertionSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 499999 | Swaps: 0 | Execution time: 0.0020124000000000
+------------------------------------
+
+Algorithm: InsertionSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 124999750000 | Swaps: 125000249999 | Execution time: 418.3881734000000300
+------------------------------------
+

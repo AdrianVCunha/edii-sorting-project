@@ -1,4 +1,8 @@
 #include "metrics/metric.h"
+#include "utils/fileUtils.h"
+#include <stdio.h>
+#include <time.h>
+#include <windows.h>
 
 void binarySort(int arr[], int n, Metric *m) {
     int aux, left, right, center;
@@ -29,4 +33,20 @@ void binarySort(int arr[], int n, Metric *m) {
 
         arr[left] = aux;
     }
+}
+
+void runBinarySort(int *array, int size, const char *datasetType, const char *outputPath, Metric *m) {
+    LARGE_INTEGER freq, start, end;
+    QueryPerformanceFrequency(&freq);
+    QueryPerformanceCounter(&start);
+
+    binarySort(array, size, m);
+
+    QueryPerformanceCounter(&end);
+    m->executionTime = (double)(end.QuadPart - start.QuadPart) / freq.QuadPart;
+
+    printNumbersToFile(array, size, outputPath);
+    printMetricToFile(size, "BinarySort", datasetType, m);
+    resetMetric(m);
+    printf("\nFinished Binary sort on %s (%d elements)", datasetType, size);
 }

@@ -1,4 +1,8 @@
 #include "metrics/metric.h"
+#include "utils/fileUtils.h"
+#include <stdio.h>
+#include <time.h>
+#include <windows.h>
 
 void selectionSort(int arr[], int n, Metric *m) {
     int i, j, min, temp;
@@ -22,4 +26,20 @@ void selectionSort(int arr[], int n, Metric *m) {
             (m->swaps)++;
         }
     }
+}
+
+void runSelectionSort(int *array, int size, const char *datasetType, const char *outputPath, Metric *m) {
+    LARGE_INTEGER freq, start, end;
+    QueryPerformanceFrequency(&freq);
+    QueryPerformanceCounter(&start);
+
+    selectionSort(array, size, m);
+
+    QueryPerformanceCounter(&end);
+    m->executionTime = (double)(end.QuadPart - start.QuadPart) / freq.QuadPart;
+
+    printNumbersToFile(array, size, outputPath);
+    printMetricToFile(size, "SelectionSort", datasetType, m);
+    resetMetric(m);
+    printf("\nFinished Selection sort on %s (%d elements)", datasetType, size);
 }

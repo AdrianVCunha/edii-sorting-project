@@ -26,14 +26,26 @@ void readArrayFromFile(int arr[], const char* fileName, int n) {
     }
 }
 
-void printMetricToFile(int n, const char *algorithm, Metric *m){
+void printMetricToFile(int n, const char *algorithm, const char *type, Metric *m){
 
-    FILE *file = fopen("data/metrics/metricsAfterSort.txt", "w");
+    char fileName[100];
+
+    sprintf(fileName, "data/metrics/metricsAfterSort-%s.txt", algorithm);
+    FILE *file = fopen(fileName, "a");
     if (file != NULL) {
-        fprintf(file, "Algorithm: %s | Size: %d\n", algorithm, n);
-        fprintf(file, "Comparisons: %lld | Swaps: %lld\n", m->comparisons, m->swaps);
+        fprintf(file, "Algorithm: %s | Size: %d | type: %s\n", algorithm, n, type);
+        fprintf(file, "Comparisons: %lld | Swaps: %lld | Execution time: %.16f\n", m->comparisons, m->swaps, m->executionTime);
         fprintf(file, "------------------------------------\n\n");
 
         fclose(file);
     }
+}
+
+void clearFile(const char *filename) {
+    FILE *f = fopen(filename, "w");
+    if (f == NULL) {
+        perror("Erro ao abrir o arquivo");
+        return;
+    }
+    fclose(f); 
 }

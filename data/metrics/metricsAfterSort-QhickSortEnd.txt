@@ -1,0 +1,36 @@
+Algorithm: QhickSortEnd | Size: 10000 | type: Random Numbers
+Comparisons: 183325 | Swaps: 33401 | Execution time: 0.0013675000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 10000 | type: Ordered Numbers
+Comparisons: 125439 | Swaps: 5904 | Execution time: 0.0004470000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 10000 | type: Reversed Numbers
+Comparisons: 125452 | Swaps: 10904 | Execution time: 0.0004966000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 100000 | type: Random Numbers
+Comparisons: 2253449 | Swaps: 410892 | Execution time: 0.0167704000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 100000 | type: Ordered Numbers
+Comparisons: 1600016 | Swaps: 65535 | Execution time: 0.0051218000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 100000 | type: Reversed Numbers
+Comparisons: 1600030 | Swaps: 115534 | Execution time: 0.0046932000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 500000 | type: Random Numbers
+Comparisons: 12892973 | Swaps: 2326199 | Execution time: 0.0871958000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 500000 | type: Ordered Numbers
+Comparisons: 9000018 | Swaps: 262143 | Execution time: 0.0245868000000000
+------------------------------------
+
+Algorithm: QhickSortEnd | Size: 500000 | type: Reversed Numbers
+Comparisons: 9000034 | Swaps: 512142 | Execution time: 0.0253518000000000
+------------------------------------
+

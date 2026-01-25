@@ -1,0 +1,36 @@
+Algorithm: BinarySort | Size: 10000 | type: Random Numbers
+Comparisons: 119029 | Swaps: 25061064 | Execution time: 0.0555935000000000
+------------------------------------
+
+Algorithm: BinarySort | Size: 10000 | type: Ordered Numbers
+Comparisons: 113631 | Swaps: 0 | Execution time: 0.0007038000000000
+------------------------------------
+
+Algorithm: BinarySort | Size: 10000 | type: Reversed Numbers
+Comparisons: 123617 | Swaps: 49995000 | Execution time: 0.1139126000000000
+------------------------------------
+
+Algorithm: BinarySort | Size: 100000 | type: Random Numbers
+Comparisons: 1522844 | Swaps: 2507644341 | Execution time: 5.6224641999999996
+------------------------------------
+
+Algorithm: BinarySort | Size: 100000 | type: Ordered Numbers
+Comparisons: 1468946 | Swaps: 0 | Execution time: 0.0097635000000000
+------------------------------------
+
+Algorithm: BinarySort | Size: 100000 | type: Reversed Numbers
+Comparisons: 1568929 | Swaps: 4999950000 | Execution time: 11.6499498999999990
+------------------------------------
+
+Algorithm: BinarySort | Size: 500000 | type: Random Numbers
+Comparisons: 8774245 | Swaps: 62590623619 | Execution time: 134.2571192000000100
+------------------------------------
+
+Algorithm: BinarySort | Size: 500000 | type: Ordered Numbers
+Comparisons: 8475732 | Swaps: 0 | Execution time: 0.0317292000000000
+------------------------------------
+
+Algorithm: BinarySort | Size: 500000 | type: Reversed Numbers
+Comparisons: 8975713 | Swaps: 124999750000 | Execution time: 270.4947406000000000
+------------------------------------
+

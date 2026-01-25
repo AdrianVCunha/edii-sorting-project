@@ -1,0 +1,36 @@
+Algorithm: TernarySort | Size: 10000 | type: Random Numbers
+Comparisons: 72402 | Swaps: 25132522 | Execution time: 0.0578193000000000
+------------------------------------
+
+Algorithm: TernarySort | Size: 10000 | type: Ordered Numbers
+Comparisons: 68532 | Swaps: 9999 | Execution time: 0.0006457000000000
+------------------------------------
+
+Algorithm: TernarySort | Size: 10000 | type: Reversed Numbers
+Comparisons: 73440 | Swaps: 50004999 | Execution time: 0.1239183000000000
+------------------------------------
+
+Algorithm: TernarySort | Size: 100000 | type: Random Numbers
+Comparisons: 932256 | Swaps: 2500397897 | Execution time: 6.0098096999999999
+------------------------------------
+
+Algorithm: TernarySort | Size: 100000 | type: Ordered Numbers
+Comparisons: 896681 | Swaps: 99999 | Execution time: 0.0077996000000000
+------------------------------------
+
+Algorithm: TernarySort | Size: 100000 | type: Reversed Numbers
+Comparisons: 940952 | Swaps: 5000049999 | Execution time: 11.1815473999999990
+------------------------------------
+
+Algorithm: TernarySort | Size: 500000 | type: Random Numbers
+Comparisons: 5394877 | Swaps: 62493303371 | Execution time: 157.4905771999999900
+------------------------------------
+
+Algorithm: TernarySort | Size: 500000 | type: Ordered Numbers
+Comparisons: 5190011 | Swaps: 499999 | Execution time: 0.0407594000000000
+------------------------------------
+
+Algorithm: TernarySort | Size: 500000 | type: Reversed Numbers
+Comparisons: 5468560 | Swaps: 125000249999 | Execution time: 297.0819804999999900
+------------------------------------
+
