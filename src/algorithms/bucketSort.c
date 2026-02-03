@@ -21,10 +21,9 @@ void bucketSort(int arr[], int n, int bucketCount, Metric *m) {
 
     int min = arr[0], max = arr[0];
     for (int i = 1; i < n; i++) {
-        m->comparisons++;
+
         if (arr[i] < min) min = arr[i];
 
-        m->comparisons++;
         if (arr[i] > max) max = arr[i];
     }
 

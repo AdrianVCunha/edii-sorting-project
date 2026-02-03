@@ -34,3 +34,39 @@ Algorithm: BucketSort | Size: 500000 | type: Reversed Numbers
 Comparisons: 999998 | Swaps: 1000000 | Execution time: 0.0584712000000000
 ------------------------------------
 
+Algorithm: BucketSort | Size: 10000 | type: Random Numbers
+Comparisons: 4566 | Swaps: 26243 | Execution time: 0.0016508000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 10000 | type: Ordered Numbers
+Comparisons: 0 | Swaps: 20000 | Execution time: 0.0012233000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 10000 | type: Reversed Numbers
+Comparisons: 0 | Swaps: 20000 | Execution time: 0.0009727000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 100000 | type: Random Numbers
+Comparisons: 58274 | Swaps: 276754 | Execution time: 0.0232146000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 100000 | type: Ordered Numbers
+Comparisons: 0 | Swaps: 200000 | Execution time: 0.0097410000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 100000 | type: Reversed Numbers
+Comparisons: 0 | Swaps: 200000 | Execution time: 0.0113601000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 500000 | type: Random Numbers
+Comparisons: 309440 | Swaps: 1406026 | Execution time: 0.0899945000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 500000 | type: Ordered Numbers
+Comparisons: 0 | Swaps: 1000000 | Execution time: 0.0483784000000000
+------------------------------------
+
+Algorithm: BucketSort | Size: 500000 | type: Reversed Numbers
+Comparisons: 0 | Swaps: 1000000 | Execution time: 0.0522194000000000
+------------------------------------
+
