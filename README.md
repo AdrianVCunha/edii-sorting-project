@@ -2,9 +2,12 @@
 
 Este repositório contém a implementação de diversos **algoritmos de ordenação** em C, com foco em análise de desempenho, como parte da disciplina **Estruturas de Dados II (COM10078)** da **UFES**.
 Para executar o programa:
-1- Faça o download
-2 - Abra o cmd na pasta do projeto e rode o comando: gcc -Iinclude src/main.c src/metrics/metric.c src/algorithms/* src/utils/* -o test
-3 - Execute o "test", se estiver no linux, use .\test, se no cmd do windows, use test.
+
+1- Faça o download  
+
+2 - Abra o cmd na pasta do projeto e rode o comando: gcc -Iinclude src/main.c src/metrics/metric.c src/algorithms/* src/utils/* -o test  
+
+3 - Execute o "test", se estiver no linux, use .\test, se no cmd do windows, use test.  
 
 ### Algoritmos implementados
     * Bubble sort
