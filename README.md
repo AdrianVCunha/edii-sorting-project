@@ -1,10 +1,24 @@
 ## Descrição do Projeto
 
 Este repositório contém a implementação de diversos **algoritmos de ordenação** em C, com foco em análise de desempenho, como parte da disciplina **Estruturas de Dados II (COM10078)** da **UFES**.
+Para executar o programa:
+1- Faça o download
+2 - Abra o cmd na pasta do projeto e rode o comando: gcc -Iinclude src/main.c src/metrics/metric.c src/algorithms/* src/utils/* -o test
+3 - Execute o "test", se estiver no linux, use .\test, se no cmd do windows, use test.
 
 ### Algoritmos implementados
     * Bubble sort
-    * Optimized Bubble Sort (with early stopping)
+    * Bubble sort with early stop
+    * Insertion sort
+    * Binary sort
+    * Ternary sort
+    * ShellSort
+    * Selection sort
+    * Heap sort
+    * Quick sort - (end, center and median pivo)
+    * Merge sort
+    * Radix sort
+    * Bucket sort
 
 ### Métricas de Desempenho ###
 
@@ -32,11 +46,17 @@ Essa abordagem permite uma comparação justa e padronizada do desempenho tempor
 
 O projeto foi estruturado de forma modular, separando claramente interface e implementação, bem como os diferentes domínios do sistema:
 
+data/
+
+     input/        # Arquivos de entrada que são gerados automaticamente 
+     metrics/      # Arquivo gerado após cada teste, separado por algoritmo, contendo os resultados
+     output/       # Arquivos de entrada, agora ordenados
+
 include/
 
      algorithms/   # Cabeçalhos dos algoritmos de ordenação
      metrics/      # Estrutura e funções relacionadas às métricas
-     utils/         # Estrutura das funções utilitárias
+     utils/        # Estrutura das funções utilitárias
 
 src/
 
